@@ -24,10 +24,10 @@
 #include <sys/mman.h>
 #include <sys/socket.h>
 
+#include "config.h"
 #include "logging.h"
 #include "ring.h"
 #include "translate.h"
-#include "tun.h"
 
 #define TP_STATUS_CSUM_UNNECESSARY (1 << 7)
 
